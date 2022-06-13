@@ -250,7 +250,9 @@ p, ul li {
     padding-left: 150px;
 }
 .solution-title {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    position: relative;
+    top: -160px;
 }
 .icon-item {
     position: relative;
@@ -262,7 +264,7 @@ p, ul li {
     content: "";
     width: 100px;
     height: 70px;
-    background: url(../images/spo2.png) no-repeat;
+    background: url(../images/miter.png) no-repeat;
     background-size: contain;
     position: absolute;
     left: -120px;
@@ -280,7 +282,7 @@ p, ul li {
     content: "";
     width: 100px;
     height: 70px;
-    background: url(../images/endoscope.png) no-repeat;
+    background: url(../images/spo2.png) no-repeat;
     background-size: contain;
     position: absolute;
     left: -120px;
