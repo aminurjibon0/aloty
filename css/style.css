@@ -250,7 +250,9 @@ p, ul li {
     padding-left: 150px;
 }
 .solution-title {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    position: relative;
+    top: -160px;
 }
 .icon-item {
     position: relative;

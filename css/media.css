@@ -140,6 +140,7 @@
     .solution-title {
         text-align: center;
         margin-bottom: 0;
+        position: static;
     }
     .solution-img {
         max-width: 500px;
