@@ -215,7 +215,7 @@ p, ul li {
 
 /* ########### Story page ####### */
 .story-content {
-    padding: 40px;
+    padding: 0 40px 40px;
 }
 .founder-single {
     padding: 40px;
@@ -223,7 +223,7 @@ p, ul li {
     box-shadow: 0 0 10px 3px #eeeeee;
 }
 .founder-single h3 {
-    font-size: 28px;
+    font-size: 24px;
     margin: 20px 0 30px;
     line-height: 1.6;
 }
@@ -235,6 +235,12 @@ p, ul li {
     font-size: 22px;
     line-height: 1.6;
     margin-bottom: 16px;
+    position: relative;
+}
+.solution-list i {
+    position: absolute;
+    left: -30px;
+    top: 6px;
 }
 .solution-list span {
     font-weight: 600;
@@ -317,6 +323,7 @@ p, ul li {
 .ss-single h4 {
     font-size: 24px;
     margin-bottom: 15px;
+    min-height: 50px;
 }
 
 
